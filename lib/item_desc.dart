@@ -23,6 +23,7 @@ class _ItemDescState extends State<ItemDesc> {
           Image.network(widget.url),
           SizedBox(height: 20,),
           GenZText(text: widget.name),
+          GenZText(text: "Desc")
         ],
       ),
     );
